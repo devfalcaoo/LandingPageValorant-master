@@ -1,0 +1,158 @@
+@media screen and (max-width: 744px) {
+  .hero-section {
+    padding-top: 80px;
+    height: 90vh;
+    background-position: center;
+  }
+  .hero-section h1 {
+    font-size: 72px;
+    position: absolute;
+    width: 75%;
+    text-align: left;
+    top: 250px;
+  }
+  .hero-section p {
+    font-size: 24px;
+    position: absolute;
+    width: 75%;
+    text-align: left;
+    margin: 0 0 24px;
+    margin-top: 150px;
+  }
+  .arrow {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hero-section::after {
+  content: "";
+  display: inline-block;
+  border-radius: 3px;
+  position: absolute;
+  top: 525px;
+  left: 200px;
+  width: 110px;
+  height: 5px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+  #about {
+    height: 50vh;
+    width: 100%;
+  }
+
+  #about h2 {
+    font-size: 60px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  #about p {
+    font-size: 24px;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  #about .btn {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #points-game {
+    height: auto;
+    padding: 32px 8px;
+  }
+
+  #points-game h2 {
+    font-size: 1.5rem;
+    margin-top: 16px;
+  }
+  #points-game .row {
+    flex-direction: column;
+    gap: 24px;
+  }
+  #points-game .col {
+    margin-bottom: 16px;
+  }
+  #points-game .img-fluid {
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+  }
+  #points-game h3 {
+    font-size: 1.1rem;
+    margin-top: 8px;
+  }
+  #points-game p {
+    font-size: 1rem;
+    max-width: 100%;
+    margin-bottom: 8px;
+  }
+  #points-game::after {
+    display: none;
+  }
+
+  #carousel-container .owl-carousel .item img {
+    height: 180px;
+  }
+  #carousel-container::before,
+  #carousel-container::after {
+    display: none;
+  }
+  #prev, #next {
+    left: 10px !important;
+    right: 10px !important;
+    top: unset;
+    bottom: 10px;
+    transform: none;
+    width: 40px;
+    height: 40px;
+  }
+  #prev {
+    left: 10px !important;
+    right: auto !important;
+  }
+  #next {
+    right: 10px !important;
+    left: auto !important;
+  }
+
+  #download {
+    height: auto;
+    padding: 32px 8px;
+  }
+  #btn-download {
+    width: 100%;
+    max-width: 220px;
+    margin: 16px auto 0 auto;
+    display: block;
+  }
+
+  #footer {
+    height: auto;
+    flex-direction: column;
+    padding: 16px 0;
+  }
+  #footer-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #valorantlogo {
+    width: 140px;
+    height: 24px;
+  }
+
+  body {
+    overflow: auto;
+  }
+}
