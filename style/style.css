@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* ==== HERO SECTION ====*/
 .hero-section {
     background: url('../img/image-bg.jpg') no-repeat center center;
     background-size: cover;
@@ -64,12 +65,16 @@
     left: 200px;
     width: 255px;
 }
+/* ==== /HERO SECTION ====*/
 
+/* ==== LOGO ====*/
 #valorantlogo {
     width: 210px;
     height: 30px;
 }
+/* ==== /LOGO ====*/
 
+/* ==== NAVBAR ====*/
 .navbar {
     box-shadow: 0px 3px 6px #00000029;
     font-size: 16px;
@@ -118,7 +123,9 @@
     font-weight: bold;
     text-align: right;
 }
+/* ==== /NAVBAR ====*/
 
+/* ==== SECTION ABOUT (sobre) ====*/
 #about {
     background-color:#fa8550 !important;
     width: 100%;
@@ -174,7 +181,9 @@
   background-color: #ffffff;
   z-index: 5;
 }
+/* ==== /SECTION ABOUT (sobre) ====*/
 
+/* ==== SECTION POINTS GAME (pontos de jogo) ====*/
 #points-game {
     background-color: #ffffff;
     width: 100%;
@@ -229,7 +238,9 @@
   background-color: #fa8550;
   z-index: 5;
 }
+/* ==== /SECTION POINTS GAME (pontos de jogo) ====*/
 
+/* ==== CAROUSEL ====*/
 #carousel-container {
     position: relative;
 }
@@ -280,7 +291,9 @@
 #next {
     right: 300px; 
 }
+/* ==== /CAROUSEL ====*/
 
+/* ==== DOWNLOAD GAME (baixar jogo) ====*/
 #download {
     background-color:#333333 !important;
     width: 100%;
@@ -306,7 +319,9 @@
     margin: 16px;
     display: inline-block;
 }
+/* ==== /DOWNLOAD GAME (baixar jogo) ====*/
 
+/* ==== FOOTER (rodapé) ====*/
 #footer {
     background-color: #ffffff;
     background: #ffffff;
@@ -322,7 +337,9 @@
     width: 178px;
     height: 200px;
 }
+/* ==== /FOOTER (rodapé) ====*/
 
+/* ==== ARROW (flecha/seta) ====*/
 .arrow {
     position: absolute;
     left: 50%;
@@ -345,3 +362,4 @@
     50% { transform: translateX(-30%) translateY(70px); }
     100% { transform: translateX(-30%) translateY(0); }
 }
+/* ==== /ARROW (flecha/seta) ====*/
